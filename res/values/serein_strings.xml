@@ -38,4 +38,7 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
 </resources>
