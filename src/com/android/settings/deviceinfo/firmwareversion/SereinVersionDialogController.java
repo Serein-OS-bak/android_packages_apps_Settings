@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 package com.android.settings.deviceinfo.firmwareversion;
- import android.content.Context;
+import android.content.Context;
 import android.os.SystemProperties;
 import android.support.annotation.VisibleForTesting;
- import com.android.settings.R;
- public class SereinVersionDialogController {
-     @VisibleForTesting
+import com.android.settings.R;
+public class SereinVersionDialogController {
+    @VisibleForTesting
     private static final int SEREIN_VERSION_VALUE_ID = R.id.serein_version;
     private static final String SEREIN_VERSION = "serein_version";
     private static final String SEREIN_PROP = "ro.serein.version";
-     private final FirmwareVersionDialogFragment mDialog;
+    private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
-     public SereinVersionDialogController(FirmwareVersionDialogFragment dialog) {
+    public SereinVersionDialogController(FirmwareVersionDialogFragment dialog) {
         mDialog = dialog;
         mContext = dialog.getContext();
     }
