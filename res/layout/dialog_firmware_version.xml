@@ -25,19 +25,7 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
-        <!-- sereinOS version -->
-        <TextView
-            style="@style/device_info_dialog_label"
-            android:id="@+id/serein_version_label"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/serein_version"/>
-        <TextView
-            style="@style/device_info_dialog_value"
-            android:id="@+id/serein_version"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
+        <!-- sereinOS logo -->
        <LinearLayout
     	   android:gravity="center"
     	   android:layout_width="match_parent"
@@ -51,6 +39,19 @@
     	   android:scaleType="centerInside"
     	   android:tint="?android:attr/colorAccent" />
          </LinearLayout>
+
+        <!-- sereinOS version -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/serein_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serein_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/serein_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <TextView
             style="@style/device_info_dialog_label"
