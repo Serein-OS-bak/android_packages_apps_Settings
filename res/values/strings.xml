@@ -10080,4 +10080,8 @@
 
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
+
+    <!-- SereinExtras -->
+    <string name="sereinextras_title">SereinExtras</string>
+    <string name="sereinextras_summary">Get Sereined? We seriously need a new tagline</string>
 </resources>
