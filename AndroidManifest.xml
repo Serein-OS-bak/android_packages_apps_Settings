@@ -3330,7 +3330,7 @@
 
         <activity android:name=".Settings$SereinExtrasActivity"
                   android:label="@string/sereinextras_title"
-                  android:icon="@drawable/ic_settings_sereinextras">
+                  android:icon="@drawable/ic_homepage_sereinextras">
             <intent-filter android:priority="10">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
