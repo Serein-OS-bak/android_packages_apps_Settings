@@ -50,7 +50,6 @@ import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
 import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
-import com.android.settings.deviceinfo.DeviceMaintainerPreference;
 import com.android.settings.deviceinfo.OTAPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.EntityHeaderController;
@@ -117,8 +116,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
             lifecycle.addObserver(deviceNamePreferenceController);
         }
         controllers.add(deviceNamePreferenceController);
-        controllers.add(new OTAPreferenceController(context));
-        controllers.add(new DeviceMaintainerPreference(context));       
+        controllers.add(new OTAPreferenceController(context));      
  controllers.add(new SimStatusPreferenceController(context, fragment));
         controllers.add(new DeviceModelPreferenceController(context, fragment));
         controllers.add(new ImeiInfoPreferenceController(context, fragment));
