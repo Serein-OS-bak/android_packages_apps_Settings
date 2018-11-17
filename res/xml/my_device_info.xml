@@ -33,6 +33,15 @@
         android:order="1"
         android:title="@string/my_device_info_device_name_preference_title"
         android:summary="@string/summary_placeholder"/>
+  <!-- SereinOS OTA updates -->
+    <Preference
+        android:key="Serein_updates"
+        android:title="@string/updates_serein_title"
+        android:summary="@string/updates_serein_summary">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.Serein.ota"
+                android:targetClass="com.Serein.ota.MainActivity" />
+    </Preference>
 
     <!-- Account name -->
     <Preference
