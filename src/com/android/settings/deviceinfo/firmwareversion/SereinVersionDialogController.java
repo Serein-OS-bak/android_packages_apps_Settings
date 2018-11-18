@@ -22,7 +22,7 @@ public class SereinVersionDialogController {
     @VisibleForTesting
     private static final int SEREIN_VERSION_VALUE_ID = R.id.serein_version;
     private static final String SEREIN_VERSION = "serein_version";
-    private static final String SEREIN_PROP = "ro.serein.version";
+    private static final String SEREIN_PROP = "ro.serein.codename";
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
     public SereinVersionDialogController(FirmwareVersionDialogFragment dialog) {
