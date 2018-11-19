@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- AOSiP Version -->
+    <!-- SereinOS Version -->
     <string name="serein_version">sereinOS Build</string>
     <string name="serein_version_default">Unknown</string>
 
@@ -40,6 +40,12 @@
 
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- Selinux -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 
     <!-- Ambient Play -->
     <string name="ambient_play_title" translatable="false">@*android:string/ambient_recognition_notification</string>
