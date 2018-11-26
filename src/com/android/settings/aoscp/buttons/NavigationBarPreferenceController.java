@@ -31,6 +31,7 @@ public class NavigationBarPreferenceController extends AbstractPreferenceControl
 
     private Context mContext;
     private String mKey;
+    private boolean mNavbarOnly;
     private int mDeviceHardwareKeys;
 
     public NavigationBarPreferenceController(Context context, String key) {
@@ -39,11 +40,13 @@ public class NavigationBarPreferenceController extends AbstractPreferenceControl
         mKey = key;
         mDeviceHardwareKeys = context.getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
+        mNavbarOnly = context.getResources().getBoolean(
+                com.android.internal.R.bool.config_defaultToNavigationBar);
     }
 
     @Override
     public boolean isAvailable() {
-        return mDeviceHardwareKeys != 0;
+        return mDeviceHardwareKeys != 0 || mNavbarOnly;
     }
 
     @Override
