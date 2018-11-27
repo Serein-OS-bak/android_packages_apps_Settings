@@ -103,4 +103,17 @@
     <string name="action_last_app">Launch last app</string>
     <string name="action_splitscreen">Splitscreen</string>
 
+    <!-- Kek Strings -->
+    <string name="kek01">The Axis Church can get things done</string>
+    <string name="kek02">If it doesn’t go well, it’s not your fault!</string>
+    <string name="kek03">It’s society’s fault that things don’t work out!</string>
+    <string name="kek04">You can run away from unpleasant things!</string>
+    <string name="kek05">Because, as they say, “Sometimes running away is winning”!</string>
+    <string name="kek06">Do not fear growing old.</string>
+    <string name="kek07">If you’re going to regret it anyway, do whatever’s easiest for you</string>
+    <string name="kek08">Join the axis church</string>
+    <string name="kek09">Fuck Eris order!</string>
+    <string name="kek10">You better worship us if you wanna be reincarnated</string>
+    <string name="kek11">www.axisorder.com</string>
+
 </resources>

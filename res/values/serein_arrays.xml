@@ -36,4 +36,18 @@
         <item>8</item>
     </string-array>
 
- </resources> 
+     <string-array name="kek_tap" translatable="false">
+        <item>@string/kek01</item>
+        <item>@string/kek02</item>
+        <item>@string/kek03</item>
+        <item>@string/kek04</item>
+        <item>@string/kek05</item>
+        <item>@string/kek06</item>
+        <item>@string/kek07</item>
+        <item>@string/kek08</item>
+        <item>@string/kek09</item>
+        <item>@string/kek10</item>
+        <item>@string/kek11</item>
+    </string-array>
+
+</resources>
