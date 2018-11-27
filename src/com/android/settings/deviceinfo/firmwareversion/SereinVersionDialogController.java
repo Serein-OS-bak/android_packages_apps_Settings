@@ -91,7 +91,7 @@ public class SereinVersionDialogController implements View.OnClickListener {
      }
 
      public void toasts() {
-        mTapToast.makeText(mContext, keks[11 - mEasterCountdown],
+        mTapToast = Toast.makeText(mContext, keks[11 - mEasterCountdown],
                mTapToast.LENGTH_SHORT);
         mTapToast.show();
     }
