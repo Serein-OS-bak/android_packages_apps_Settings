@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="900dp"
+    android:layout_height="900dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="900dp"
+        android:layout_height="900dp"
+	android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/aqua" />
+</LinearLayout>
