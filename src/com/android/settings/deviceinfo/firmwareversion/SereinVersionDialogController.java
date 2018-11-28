@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 package com.android.settings.deviceinfo.firmwareversion;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -81,13 +84,18 @@ public class SereinVersionDialogController implements View.OnClickListener {
          if (mTapToast != null) {
               mTapToast.cancel();
          }
-         mTapToast.makeText(mContext, "Long live the goddess!",
-               mTapToast.LENGTH_LONG).show();
-         String url = "https://i.imgur.com/VM6KAao.jpg";
-         Intent i = new Intent(Intent.ACTION_VIEW);
-         i.setData(Uri.parse(url));
-         mContext.startActivity(i);
-         mEasterCountdown = TAPS_FOR_EASTER;
+         mTapToast = mTapToast.makeText(mContext, "Long live the goddess!",
+               mTapToast.LENGTH_LONG);
+         mTapToast.show();
+         View view = null;
+         AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+         LayoutInflater inflater = (LayoutInflater) mContext
+                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+         view = inflater.inflate(R.layout.dialog_aqua, null);
+         builder.setView(view);
+         builder.setCancelable(true);
+         AlertDialog alertdialog = builder.create();
+         alertdialog.show();
      }
 
      public void toasts() {
