@@ -116,4 +116,15 @@
     <string name="kek10">You better worship us if you wanna be reincarnated</string>
     <string name="kek11">www.axisorder.com</string>
 
+    <!-- About phone cards -->
+    <string name="card1">Device Model</string>
+    <string name="card2">Status</string>
+    <string name="card3">Android Version</string>
+    <string name="card4">Serein Version</string>
+    <string name="card5">SeLinux Status</string>
+    <string name="card6">Maintainer</string>
+    <string name="cpu">CPU</string>
+    <string name="unknown">Unknown</string>
+    <string name="storage">Storage</string>
+    <string name="status_default">Phone number, Signal, etc.</string>
 </resources>

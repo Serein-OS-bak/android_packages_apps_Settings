@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.settings.deviceinfo.aboutphone;
+package com.android.settings.deviceinfo.devicestatus;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.FragmentManager;
+import android.app.Fragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
@@ -34,8 +35,8 @@ public class DeviceNameWarningDialog extends InstrumentedDialogFragment
 
     public static final String TAG = "DeviceNameWarningDlg";
 
-    public static void show(MyDeviceInfoFragment host) {
-        final FragmentManager manager = host.getActivity().getFragmentManager();
+    public static void show(DeviceStatusFragment host, Fragment context) {
+        FragmentManager manager = context.getChildFragmentManager();
         if (manager.findFragmentByTag(TAG) != null) {
             return;
         }
@@ -63,7 +64,7 @@ public class DeviceNameWarningDialog extends InstrumentedDialogFragment
 
     @Override
     public void onClick(DialogInterface dialog, int which) {
-        final MyDeviceInfoFragment host = (MyDeviceInfoFragment) getTargetFragment();
+        final DeviceStatusFragment host = (DeviceStatusFragment) getTargetFragment();
         if (which == DialogInterface.BUTTON_POSITIVE) {
             host.onSetDeviceNameConfirm();
         }
