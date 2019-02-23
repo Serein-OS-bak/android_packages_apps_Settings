@@ -189,7 +189,7 @@
                             android:layout_width="1dp"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:background="?android:attr/listDivider"/>
+                            android:background="@color/divider"/>
 
                         <View
                             android:id="@+id/dividerbottom"
@@ -219,7 +219,7 @@
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="10"
-                    android:background="?android:attr/listDivider" />
+                    android:background="@color/divider" />
 
                 <View
                     android:id="@+id/dividerbottom1"
@@ -361,7 +361,7 @@
                             android:layout_width="1dp"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:background="?android:attr/listDivider"/>
+                            android:background="@color/divider"/>
 
                         <View
                             android:id="@+id/dividerbottom"
@@ -391,7 +391,7 @@
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_weight="10"
-                    android:background="?android:attr/listDivider" />
+                    android:background="@color/divider" />
 
                 <View
                     android:id="@+id/dividerbottom1"
@@ -533,7 +533,7 @@
                             android:layout_width="1dp"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:background="?android:attr/listDivider"/>
+                            android:background="@color/divider"/>
 
                         <View
                             android:id="@+id/dividerbottom"

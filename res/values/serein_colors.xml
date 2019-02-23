@@ -19,5 +19,6 @@
     <color name="text_dark">@*android:color/omni_text1</color> <!-- Primary text color -->
     <color name="about_background">@*android:color/omni_color1</color> <!-- Primary dark -->
     <color name="about_dark_background">@*android:color/omni_color7</color> <!-- Primary light (Floating dialogs) -->
+    <color name="divider">?android:attr/listDivider</color>
 
 </resources>
